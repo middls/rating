@@ -1,5 +1,58 @@
 .icon {
   display: inline-block;
-  position: absolute;
-  left: 0;
 }
+
+.icon-fb {
+  background-image: url('../images/sprite-social.png');
+  background-position: -33px 0px;
+  width: 8px;
+  height: 16px;
+}
+.icon-inst {
+  background-image: url('../images/sprite-social.png');
+  background-position: 0px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-ok {
+  background-image: url('../images/sprite-social.png');
+  background-position: -20px 0px;
+  width: 13px;
+  height: 18px;
+}
+.icon-vk {
+  background-image: url('../images/sprite-social.png');
+  background-position: 0px -20px;
+  width: 20px;
+  height: 11px;
+}
+.svg-faq {
+	background: url("../images/svg/sprite.css-0660bfd5.svg") 100% 0 no-repeat;
+}
+
+.svg-faq-x {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.svg-list {
+	background: url("../images/svg/sprite.css-0660bfd5.svg") 55.55555555555556% 0 no-repeat;
+}
+
+.svg-list-x {
+	display: inline-block;
+	width: 18px;
+	height: 23px;
+}
+
+.svg-top {
+	background: url("../images/svg/sprite.css-0660bfd5.svg") 0 0 no-repeat;
+}
+
+.svg-top-x {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+

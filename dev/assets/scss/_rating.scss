@@ -1,0 +1,176 @@
+.rating-sites {
+	margin-top: 50px;
+	.green-text {
+		position: relative;
+		font-size: 15px;
+		padding: 0 25px;
+		font-weight: 400;
+		color: #1aac13;
+		background: url('../images/tick.svg') no-repeat;
+		background-position: left center;
+	}
+	.place-block {
+		margin-top: 15px;
+		background-color: #fff;
+		padding-top: 13px;
+		padding-bottom: 5px;
+
+		.left-side {
+
+			.left-side-up {
+				display: flex;
+				align-items: flex-start;
+				justify-content: space-between;
+				padding-left: 15px;
+				.place-number {
+					color: #fff;
+					font-size: 13px;
+					font-weight: 400;
+					background-color: #5752b8;
+					border-radius: 2px;
+					width: 60px;
+					height: 20px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					box-shadow: 0px 3px 8px 0px rgba(87, 82, 184, 0.45);
+				}
+
+				.logo-site-place {
+					display: block;
+					width: 170px;
+					height: 30px;
+					background: url('../images/atolin.png') no-repeat;
+					background-position: right;
+				}
+			}
+
+			.screen-site {
+			    margin-top: 10px;
+				width: 256px;
+				height: 250px;
+				background: url('../images/screen-atolin.png') no-repeat;
+			}
+		}
+
+		.name-site {
+			display: flex;
+		    align-items: baseline;
+			justify-content: space-between;
+			span {
+				font-weight: 600;
+				font-size: 24px;
+				color: #161616;
+			}
+
+			.see-profile {
+				position: relative;
+				color: #0174e5;
+				font-weight: 600;
+				font-size: 15px;
+				&:hover {
+					text-decoration: none;
+				}
+				&::before {
+					content:'';
+					width: 16px;
+					height: 16px;
+					position: absolute;
+					top: 50%;
+					right: 0;
+					background: url('') no-repeat;
+				}
+			}
+		}
+
+		.description {
+			margin-bottom: 0;
+			margin-top: 15px;
+			font-weight: 400;
+			font-size: 15px;
+			color: #333;
+		}
+
+		.list-users {
+			list-style: none;
+			margin: 0 -7.5px;
+			margin-top: 20px;
+			padding: 0;
+
+			li {
+				padding: 0 7.5px;
+				a {
+				    width: 60px;
+				    text-decoration: none;
+				    display: flex;
+				    flex-direction: column;
+				    align-items: center;
+				    &:hover {
+						.avatar-user {
+							box-shadow: 0px 5px 16px 2px rgba(17, 30, 46, 0.43);
+							transition: all 0.3s;
+						}
+				    }
+
+					.avatar-user {
+						width: 60px;
+					    height: 75px;
+						background: url('../images/foro-user1.png') no-repeat;
+						overflow: hidden;
+						transition: all 0.3s;
+					}
+
+					.name-user {
+					    margin-top: 5px;
+						color: #333;
+						text-align: center;
+						font-weight: 500;
+						font-size: 13px;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+
+		.stars {
+			margin: 0 -5px;
+			display: flex;
+			.rating-number {
+				padding: 0 5px;
+				color: #161616;
+				font-weight: 700;
+				font-size: 15px;
+			}
+
+			.valuation {
+				padding: 0 5px;
+				color: #b3b3b3;
+				font-weight: 400;
+			}
+
+			.review_stars_wrap {
+				padding: 0 5px;
+			}
+		}
+
+		.place-btn {
+			display: flex;
+			.btn {
+				padding: 5px 13px;
+				border: 1px solid #bcbae3;
+				border-radius: 3px;
+			}
+
+			.btn-white {
+				margin-right: 13px;
+				color: #5752b8;
+			}
+
+			.btn-fill {
+				color: #fff;
+				background-color: #5752b8;
+				border: 1px solid #5752b8;
+			}
+		}
+	}
+}
