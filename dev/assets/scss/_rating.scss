@@ -28,8 +28,8 @@
 					font-weight: 400;
 					background-color: #5752b8;
 					border-radius: 2px;
-					width: 60px;
-					height: 20px;
+				    width: 65px;
+				    height: 24px;
 					display: flex;
 					align-items: center;
 					justify-content: center;
@@ -54,6 +54,7 @@
 		}
 
 		.name-site {
+			position: relative;
 			display: flex;
 		    align-items: baseline;
 			justify-content: space-between;
@@ -63,22 +64,38 @@
 				color: #161616;
 			}
 
+			&::after {
+				content:'';
+				position: absolute;
+				right: 0;
+				top: 50%;
+				width: 10px;
+				height: 10px;
+				background: url('../images/arrow-right-solid.svg') no-repeat;
+			}
+
 			.see-profile {
 				position: relative;
-				color: #0174e5;
+				color: #2387e8;
 				font-weight: 600;
 				font-size: 15px;
-				&:hover {
-					text-decoration: none;
-				}
+			    margin-right: 20px;
 				&::before {
 					content:'';
-					width: 16px;
-					height: 16px;
 					position: absolute;
-					top: 50%;
-					right: 0;
-					background: url('') no-repeat;
+					width: 0;
+					bottom: -4px;
+					height: 1px;
+					background-color: #cee2f4;
+					transition: all .3s ease-out;
+				}
+				&:hover {
+					text-decoration: none;
+					&::before {
+						width: 100%;
+						transition: all .3s linear;
+					}
+
 				}
 			}
 		}
@@ -89,6 +106,12 @@
 			font-weight: 400;
 			font-size: 15px;
 			color: #333;
+			display: block;
+		    display: -webkit-box;
+		    -webkit-line-clamp: 3;
+		    -webkit-box-orient: vertical;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
 		}
 
 		.list-users {
@@ -150,6 +173,9 @@
 
 			.review_stars_wrap {
 				padding: 0 5px;
+				span {
+					color: #ffc600;
+				}
 			}
 		}
 
@@ -164,12 +190,40 @@
 			.btn-white {
 				margin-right: 13px;
 				color: #5752b8;
+				transition: all 0.2s ease-in;
+				&:hover {
+					color: #fff;
+					background-color: #5752b8;
+					border-color: #5752b8;
+					transition: all 0.2s ease-in;
+				}
+				&:active {
+					color: #fff;
+					background-color: #493eb5;
+					border-color: #493eb5;
+				}
+				&:focus {
+					outline: none;
+					box-shadow: 0;
+				}
 			}
 
 			.btn-fill {
 				color: #fff;
 				background-color: #5752b8;
 				border: 1px solid #5752b8;
+				&:hover {
+					background-color: #493eb5;
+					border-color: #493eb5;
+				}
+				&:active {
+					background-color: #3f29b0;
+					border-color: #3f29b0;
+				}
+				&:focus {
+					outline: none;
+					box-shadow: 0;
+				}
 			}
 		}
 	}

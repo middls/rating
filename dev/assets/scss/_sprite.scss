@@ -2,29 +2,41 @@
   display: inline-block;
 }
 
-.icon-fb {
-  background-image: url('../images/sprite-social.png');
-  background-position: -33px 0px;
-  width: 8px;
-  height: 16px;
+.svg-fb {
+	background: url("../images/svg/sprite.css-5ebfeade.svg") 91.30434782608695% 62.175862068965515% no-repeat;
 }
-.icon-inst {
-  background-image: url('../images/sprite-social.png');
-  background-position: 0px 0px;
-  width: 20px;
-  height: 20px;
+
+.svg-fb-x {
+	display: inline-block;
+	width: 8px;
+	height: 16px;
 }
-.icon-ok {
-  background-image: url('../images/sprite-social.png');
-  background-position: -20px 0px;
-  width: 13px;
-  height: 18px;
+.svg-inst {
+	background: url("../images/svg/sprite.css-5ebfeade.svg") 0 100% no-repeat;
 }
-.icon-vk {
-  background-image: url('../images/sprite-social.png');
-  background-position: 0px -20px;
-  width: 20px;
-  height: 11px;
+
+.svg-inst-x {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+.svg-ok {
+	background: url("../images/svg/sprite.css-5ebfeade.svg") 98.48520377057638% 0 no-repeat;
+}
+
+.svg-ok-x {
+	display: inline-block;
+	width: 13.031px;
+	height: 18.031px;
+}
+.svg-vk {
+	background: url("../images/svg/sprite.css-5ebfeade.svg") 35.08771929824562% 73.52941176470588% no-repeat;
+}
+
+.svg-vk-x {
+	display: inline-block;
+	width: 20px;
+	height: 11px;
 }
 .svg-faq {
 	background: url("../images/svg/sprite.css-0660bfd5.svg") 100% 0 no-repeat;
