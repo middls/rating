@@ -3,7 +3,9 @@
 }
 
 .svg-fb {
-	background: url("../images/svg/sprite.css-5ebfeade.svg") 91.30434782608695% 62.175862068965515% no-repeat;
+	// background: url("../images/svg/sprite.css-5ebfeade.svg") 91.30434782608695% 62.175862068965515% no-repeat;
+	background: url('../images/fb.svg');
+	transition: all 0.3s ease;
 }
 
 .svg-fb-x {
@@ -12,7 +14,9 @@
 	height: 16px;
 }
 .svg-inst {
-	background: url("../images/svg/sprite.css-5ebfeade.svg") 0 100% no-repeat;
+	// background: url("../images/svg/sprite.css-5ebfeade.svg") 0 100% no-repeat;
+	background: url("../images/inst.svg");
+	transition: all 0.3s ease;
 }
 
 .svg-inst-x {
@@ -21,7 +25,9 @@
 	height: 20px;
 }
 .svg-ok {
-	background: url("../images/svg/sprite.css-5ebfeade.svg") 98.48520377057638% 0 no-repeat;
+	// background: url("../images/svg/sprite.css-5ebfeade.svg") 98.48520377057638% 0 no-repeat;
+	background: url('../images/ok.svg');
+	transition: all 0.3s ease;
 }
 
 .svg-ok-x {
@@ -30,7 +36,9 @@
 	height: 18.031px;
 }
 .svg-vk {
-	background: url("../images/svg/sprite.css-5ebfeade.svg") 35.08771929824562% 73.52941176470588% no-repeat;
+	// background: url("../images/svg/sprite.css-5ebfeade.svg") 35.08771929824562% 73.52941176470588% no-repeat;
+	background: url('../images/vk.svg');
+	transition: all 0.3s ease;
 }
 
 .svg-vk-x {
@@ -39,7 +47,9 @@
 	height: 11px;
 }
 .svg-faq {
-	background: url("../images/svg/sprite.css-0660bfd5.svg") 100% 0 no-repeat;
+	// background: url("../images/svg/sprite.css-0660bfd5.svg") 100% 0 no-repeat;
+	background: url('../images/faq.svg');
+	transition: all 0.3s ease;
 }
 
 .svg-faq-x {
@@ -49,7 +59,9 @@
 }
 
 .svg-list {
-	background: url("../images/svg/sprite.css-0660bfd5.svg") 55.55555555555556% 0 no-repeat;
+	// background: url("../images/svg/sprite.css-0660bfd5.svg") 55.55555555555556% 0 no-repeat;
+	background: url('../images/list.svg');
+	transition: all 0.3s ease;
 }
 
 .svg-list-x {
@@ -59,7 +71,9 @@
 }
 
 .svg-top {
-	background: url("../images/svg/sprite.css-0660bfd5.svg") 0 0 no-repeat;
+	/* background: url("../images/svg/sprite.css-0660bfd5.svg") 0 0 no-repeat; */
+	background: url('../images/top.svg');
+	transition: all 0.3s ease;
 }
 
 .svg-top-x {
@@ -67,4 +81,3 @@
 	width: 25px;
 	height: 25px;
 }
-

@@ -10,10 +10,23 @@
 		background-position: left center;
 	}
 	.place-block {
+		position: relative;
 		margin-top: 15px;
 		background-color: #fff;
 		padding-top: 13px;
 		padding-bottom: 5px;
+
+		.sovet {
+			&::before {
+				content: '';
+				position: absolute;
+				left: -22px;
+				top: 0;
+				width: 24px;
+				height: 105px;
+				background: url('../images/sovet.png');
+			}
+		}
 
 		.left-side {
 
@@ -64,14 +77,13 @@
 				color: #161616;
 			}
 
-			&::after {
+			.icon-a {
 				content:'';
 				position: absolute;
 				right: 0;
-				top: 50%;
-				width: 10px;
-				height: 10px;
-				background: url('../images/arrow-right-solid.svg') no-repeat;
+				top: 40%;
+				font-size: 11px;
+				color: #2387e8;
 			}
 
 			.see-profile {
@@ -79,7 +91,7 @@
 				color: #2387e8;
 				font-weight: 600;
 				font-size: 15px;
-			    margin-right: 20px;
+			    margin-right: 15px;
 				&::before {
 					content:'';
 					position: absolute;

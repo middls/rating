@@ -44,14 +44,26 @@
 			 		align-items: center;
 			 		font-size: 14px;
 			 		color:#fff;
+		 		 	-webkit-transition: all 0.3s ease;
+					transition: all 0.3s ease;
 			 		&:hover {
 			 			text-decoration: none;
 			 			color: #b84090;
-			 			span {
-			 				color: #ae3f89;
-			 				i {
-			 					color: #ae3f89;
-			 				}
+		 			 	-webkit-transition: all 0.3s ease;
+						transition: all 0.3s ease;
+			 			.svg-top {
+			 				background: url("../images/top-color.svg") no-repeat;
+			 				transition: all 0.3s ease;
+			 			}
+
+			 			.svg-list {
+			 				background: url("../images/list-color.svg")  no-repeat;
+			 				transition: all 0.3s ease;
+			 			}
+
+			 			.svg-faq {
+			 				background: url("../images/faq-color.svg") no-repeat;
+			 				transition: all 0.3s ease;
 			 			}
 			 		}
 
@@ -77,9 +89,41 @@
 				justify-content: flex-start;
 				padding : 25px 0;
 				a {
-					padding-right: 30px;
+					padding-right: 10px;
+
+					&:hover {
+						span {
+							background-color: #fff;
+							transition: all 0.3s ease;
+							.svg-vk {
+								background: url("../images/vk-color.svg") no-repeat;
+								transition: all 0.3s ease;
+							}
+							.svg-ok {
+								background: url("../images/ok-color.svg")  no-repeat;
+								transition: all 0.3s ease;
+							}
+							.svg-fb {
+								background: url("../images/fb-color.svg")  no-repeat;
+								transition: all 0.3s ease;
+							}
+							.svg-inst {
+								background: url("../images/inst-color.svg")  no-repeat;
+								transition: all 0.3s ease;
+							}
+						}
+					}
 					span {
-						font-size: 19px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: 34px;
+						height: 34px;
+						transition: all 0.3s ease;
+						border-radius: 4px;
+						i {
+							z-index: 3;
+						}
 					}
 				}
 			}

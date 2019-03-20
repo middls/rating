@@ -1,62 +1,8 @@
-.svg-faq {
-	background: url("sprite.css-5ebfeade.svg") 75.43859649122807% 0 no-repeat;
+.svg-vk-color {
+	background: url("sprite.css-3e5e6bbd.svg") 0 0 no-repeat;
 }
 
-.svg-faq-x {
-	width: 20px;
-	height: 20px;
-}
-
-.svg-fb {
-	background: url("sprite.css-5ebfeade.svg") 91.30434782608695% 62.175862068965515% no-repeat;
-}
-
-.svg-fb-x {
-	width: 8px;
-	height: 16px;
-}
-
-.svg-inst {
-	background: url("sprite.css-5ebfeade.svg") 0 100% no-repeat;
-}
-
-.svg-inst-x {
-	width: 20px;
-	height: 20px;
-}
-
-.svg-list {
-	background: url("sprite.css-5ebfeade.svg") 42.3728813559322% 0 no-repeat;
-}
-
-.svg-list-x {
-	width: 18px;
-	height: 23px;
-}
-
-.svg-ok {
-	background: url("sprite.css-5ebfeade.svg") 98.48520377057638% 0 no-repeat;
-}
-
-.svg-ok-x {
-	width: 13.031px;
-	height: 18.031px;
-}
-
-.svg-top {
-	background: url("sprite.css-5ebfeade.svg") 0 0 no-repeat;
-}
-
-.svg-top-x {
-	width: 25px;
-	height: 25px;
-}
-
-.svg-vk {
-	background: url("sprite.css-5ebfeade.svg") 35.08771929824562% 73.52941176470588% no-repeat;
-}
-
-.svg-vk-x {
+.svg-vk-color-x {
 	width: 20px;
 	height: 11px;
 }
