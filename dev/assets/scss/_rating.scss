@@ -134,6 +134,8 @@
 
 			li {
 				padding: 0 7.5px;
+				width: 75px;
+    			flex-wrap: wrap;
 				a {
 				    width: 60px;
 				    text-decoration: none;
@@ -149,10 +151,10 @@
 
 					.avatar-user {
 						width: 60px;
-					    height: 75px;
+						min-height: 60px;
 						background: url('../images/foro-user1.png') no-repeat;
-						overflow: hidden;
 						transition: all 0.3s;
+						background-size: cover;
 					}
 
 					.name-user {
