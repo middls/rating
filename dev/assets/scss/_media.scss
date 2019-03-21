@@ -1,10 +1,16 @@
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
+	body {
+		padding-left: 250px;
+	}
 	.sm-d {
 		display: none;
 	}
 
 	.box-center {
+		.container {
+    		max-width: 915px;
+		}
 		.rating-sites {
 			.place-block {
 				.sm-d {
@@ -63,10 +69,11 @@
 	}
 
 	.box-center {
-		margin-top: 80px;
+		margin-top: 100px;
 		padding: 0 !important;
 		.header {
 			.title-block {
+				margin-top: 0;
 				.title-top {
 					font-size: 30px;
 				}
@@ -94,7 +101,7 @@
 		}
 
 		.place-block {
-
+			padding: 10px;
 			.left-side {
 
 				.screen-site {
@@ -116,7 +123,7 @@
 			}
 
 			.list-users {
-				justify-content: center !important;
+				justify-content: space-between !important;
 				li {
 					display: none;
 					width: 70px !important;
@@ -131,6 +138,19 @@
 					}
 				}
 			}
+
+			// .stars {
+			// 	display: none !important;
+			// }
+			// .sm-d {
+			// 	display: flex !important;
+			// }
+
+			// .place-btn {
+			// 	.btn-white {
+			// 		display: none;
+			// 	}
+			// }
 		}
 	}
 }
