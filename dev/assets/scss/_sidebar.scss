@@ -2,7 +2,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 15.2%;
+	width: 250px;
 	height: 100%;
 	background: #313235;
 	text-align: center;
@@ -22,8 +22,13 @@
 		    align-items: flex-start;
 		    width: 100%;
 		    .a-logo {
-		    	width: 170px;
-		    	height: 45px;
+		    	a {
+		    		display: inline-block;
+		    		width: 170px;
+		    		height: 45px;
+		    		background: url('../images/logo.png')  no-repeat;
+		    		background-size: contain;
+		    	}
 		    }
 		}
 
@@ -411,5 +416,9 @@
 .box-center {
 	max-width: 100%;
 	width: 100%;
-	padding: 0 45px;
+	padding: 20px;
+
+	.container-fluid {
+
+	}
 }

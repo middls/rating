@@ -131,10 +131,11 @@
 			margin: 0 -7.5px;
 			margin-top: 20px;
 			padding: 0;
+			flex-wrap: wrap;
 
 			li {
 				padding: 0 7.5px;
-				width: 75px;
+				width: 70px;
     			flex-wrap: wrap;
 				a {
 				    width: 60px;

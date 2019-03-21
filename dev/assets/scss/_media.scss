@@ -1,6 +1,18 @@
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
+	.sm-d {
+		display: none;
+	}
 
+	.box-center {
+		.rating-sites {
+			.place-block {
+				.sm-d {
+					display: none;
+				}
+			}
+		}
+	}
 }
 
 /* Portrait tablets and medium desktops */
@@ -21,5 +33,104 @@
 
 /* Landscape phones and smaller */
 @media (min-width: 320px) and (max-width: 480px) {
+	.box_sidebar--left {
+		position: fixed;
+		width: 100% !important;
+		height: auto !important;
+		.side-wrap {
+			padding: 10px 15px! important;
+			.logo-block {
 
+				.a-logo {
+					display: flex;
+				}
+			}
+			.wrap-ul {
+				display: none;
+			}
+			.share {
+
+				display: none !important;
+				.social {
+					display: none;
+				}
+
+				.copyright {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.box-center {
+		margin-top: 80px;
+		padding: 0 !important;
+		.header {
+			.title-block {
+				.title-top {
+					font-size: 30px;
+				}
+			}
+
+			.wrap-p {
+				padding: 0;
+				margin-top: 10px;
+				.description {
+					font-size: 13px;
+				}
+			}
+		}
+	}
+
+	.rating-sites {
+
+		.green-text {
+			display: none;
+		}
+
+		.sm-d {
+			display: block;
+			font-size: 13px !important;
+		}
+
+		.place-block {
+
+			.left-side {
+
+				.screen-site {
+					display: none;
+				}
+				.left-side-up {
+					padding-left: 0 !important;
+				}
+			}
+			.name-site {
+				display: none !important;
+			}
+			.description {
+				font-size: 13px !important;
+			}
+			.sm-d {
+				display: block !important;
+				font-size: 13px !important;
+			}
+
+			.list-users {
+				justify-content: center !important;
+				li {
+					display: none;
+					width: 70px !important;
+
+					&:first-child,
+					&:nth-child(2),
+					&:nth-child(3),
+					&:nth-child(4), {
+
+						display: flex;
+						justify-content: center !important;
+					}
+				}
+			}
+		}
+	}
 }
