@@ -31,6 +31,22 @@
 		    	}
 		    }
 		}
+		.menu {
+			.btn-menu {
+				position: relative;
+				width: 25px;
+				height: 25px;
+				&::before {
+					content:'';
+					position: absolute;
+					right: 0;
+					width: 25px;
+					height: 25px;
+					background: url('../images/menu.svg') no-repeat;
+				}
+			}
+		}
+
 
 		.wrap-ul {
 			width: 100%;
@@ -54,8 +70,8 @@
 			 		align-items: center;
 			 		font-size: 14px;
 			 		color:#fff;
-		 		 	-webkit-transition: all 0.3s ease;
-					transition: all 0.3s ease;
+		 		 	-webkit-transition: opacity 0.3s ease;
+					transition: opacity 0.3s ease;
 					i {
 						width: 40px;
 						height: 40px;
@@ -64,50 +80,50 @@
 			 		&:hover {
 			 			text-decoration: none;
 			 			color: #b84090;
-		 			 	-webkit-transition: all 0.3s ease;
-						transition: all 0.3s ease;
+		 			 	-webkit-transition: opacity 0.3s ease;
+						transition: opacity 0.3s ease;
 			 			.svg-top {
-			 				transition: all 0.3s ease;
+			 				transition: opacity 0.3s ease;
 
 			 				&::before {
 							    opacity: 0;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 
 			 				&::after {
 							    opacity: 1;
-								transition: all 0.3s ease;
+								transition: opacity 0.3s ease;
 			 				}
 			 			}
 
 			 			.svg-list {
-			 				transition: all 0.3s ease;
+			 				transition: opacity 0.3s ease;
 			 				&::before {
 							    opacity: 0;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 
 			 				&::after {
 							    opacity: 1;
-								transition: all 0.3s ease;
+								transition: opacity 0.3s ease;
 			 				}
 			 			}
 
 			 			.svg-faq {
-			 				transition: all 0.3s ease;
+			 				transition: opacity 0.3s ease;
 			 				&::before {
 							    opacity: 0;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 
 			 				&::after {
 							    opacity: 1;
-								transition: all 0.3s ease;
+								transition: opacity 0.3s ease;
 			 				}
 			 			}
 			 		}
 			 		.svg-top {
-			 				transition: all 0.3s ease;
+			 				transition: opacity 0.3s ease;
 
 			 				&::before {
 			 					content:'';
@@ -120,7 +136,7 @@
 							    background: url('../images/top.svg') 50% 50%  no-repeat;
 							    width: 25px;
 								height: 25px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 
 			 				&::after {
@@ -134,11 +150,11 @@
 							    background: url("../images/top-color.svg") 50% 50%  no-repeat;
 							    width: 25px;
 								height: 25px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 			 			}
 			 			.svg-faq {
-			 				transition: all 0.3s ease;
+			 				transition: opacity 0.3s ease;
 
 			 				&::before {
 			 					content:'';
@@ -151,7 +167,7 @@
 							    background: url('../images/faq.svg') 50% 50% no-repeat;
 						    	width: 20px;
 								height: 20px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 
 			 				&::after {
@@ -165,11 +181,11 @@
 							    background: url("../images/faq-color.svg") 50% 50% no-repeat;
 						    	width: 20px;
 								height: 20px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 			 			}
 			 			.svg-list {
-			 				transition: all 0.3s ease;
+			 				transition: opacity 0.3s ease;
 
 			 				&::before {
 			 					content:'';
@@ -182,7 +198,7 @@
 							    background: url('../images/list.svg') 50% 50%  no-repeat;
 							    width: 18px;
 								height: 23px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 
 			 				&::after {
@@ -196,7 +212,7 @@
 							    background: url("../images/list-color.svg") 50% 50% no-repeat;
 							    width: 18px;
 								height: 23px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 			 			}
 			 	}
@@ -224,59 +240,59 @@
 					&:hover {
 						span {
 							background-color: #fff;
-							transition: all 0.3s ease;
+							transition: opacity 0.3s ease;
 							.svg-vk {
-								transition: all 0.3s ease;
+								transition: opacity 0.3s ease;
 								&::before {
 								    opacity: 0;
-								    transition: all 0.3s ease;
+								    transition: opacity 0.3s ease;
 			 					}
 
 				 				&::after {
 								    opacity: 1;
-									transition: all 0.3s ease;
+									transition: opacity 0.3s ease;
 				 				}
 							}
 							.svg-ok {
-								transition: all 0.3s ease;
+								transition: opacity 0.3s ease;
 								&::before {
 								    opacity: 0;
-								    transition: all 0.3s ease;
+								    transition: opacity 0.3s ease;
 			 					}
 
 				 				&::after {
 								    opacity: 1;
-									transition: all 0.3s ease;
+									transition: opacity 0.3s ease;
 				 				}
 							}
 							.svg-fb {
-								transition: all 0.3s ease;
+								transition: opacity 0.3s ease;
 								&::before {
 								    opacity: 0;
-								    transition: all 0.3s ease;
+								    transition: opacity 0.3s ease;
 			 					}
 
 				 				&::after {
 								    opacity: 1;
-									transition: all 0.3s ease;
+									transition: opacity 0.3s ease;
 				 				}
 							}
 							.svg-inst {
-								transition: all 0.3s ease;
+								transition: opacity 0.3s ease;
 								&::before {
 								    opacity: 0;
-								    transition: all 0.3s ease;
+								    transition: opacity 0.3s ease;
 			 					}
 
 				 				&::after {
 								    opacity: 1;
-									transition: all 0.3s ease;
+									transition: opacity 0.3s ease;
 				 				}
 							}
 						}
 					}
 					.svg-vk {
-			 				transition: all 0.3s ease;
+			 				transition: opacity 0.3s ease;
 
 			 				&::before {
 			 					content:'';
@@ -285,7 +301,7 @@
 							    background: url('../images/vk.svg') 50% 50%  no-repeat;
 							    width: 20px;
 								height: 11px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 
 			 				&::after {
@@ -295,11 +311,11 @@
 							    background: url("../images/vk-color.svg") 50% 50% no-repeat;
 							    width: 20px;
 								height: 11px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 			 			}
 			 			.svg-ok {
-			 				transition: all 0.3s ease;
+			 				transition: opacity 0.3s ease;
 
 			 				&::before {
 			 					content:'';
@@ -308,7 +324,7 @@
 							    background: url('../images/ok.svg') 50% 50%  no-repeat;
 							    width: 13.031px;
 								height: 18.031px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 
 			 				&::after {
@@ -318,11 +334,11 @@
 							    background: url("../images/ok-color.svg") 50% 50% no-repeat;
 							    width: 13.031px;
 								height: 18.031px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 			 			}
 			 			.svg-fb {
-			 				transition: all 0.3s ease;
+			 				transition: opacity 0.3s ease;
 
 			 				&::before {
 			 					content:'';
@@ -331,7 +347,7 @@
 							    background: url('../images/fb.svg') 50% 50%  no-repeat;
 							    width: 8px;
 								height: 16px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 
 			 				&::after {
@@ -341,11 +357,11 @@
 							    background: url("../images/fb-color.svg") 50% 50% no-repeat;
 							    width: 8px;
 								height: 16px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 			 			}
 			 			.svg-inst {
-			 				transition: all 0.3s ease;
+			 				transition: opacity 0.3s ease;
 
 			 				&::before {
 			 					content:'';
@@ -354,7 +370,7 @@
 							    background: url('../images/inst.svg') 50% 50%  no-repeat;
 							    width: 20px;
 								height: 20px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 
 			 				&::after {
@@ -364,7 +380,7 @@
 							    background: url("../images/inst-color.svg") 50% 50% no-repeat;
 							    width: 20px;
 								height: 20px;
-							    transition: all 0.3s ease;
+							    transition: opacity 0.3s ease;
 			 				}
 			 			}
 					span {
@@ -373,7 +389,7 @@
 						justify-content: center;
 						width: 34px;
 						height: 34px;
-						transition: all 0.3s ease;
+						transition: opacity 0.3s ease;
 						border-radius: 4px;
 						i {
 							width: 34px;
@@ -425,4 +441,14 @@
 	//     flex-direction: column;
 	//     align-items: flex-start;
 	// }
+}
+
+.navbar {
+	.navbar-brand {
+		display: inline-block;
+		width: 170px;
+		height: 45px;
+		background: url('../images/logo.png')  no-repeat;
+		background-size: contain;
+    }
 }
