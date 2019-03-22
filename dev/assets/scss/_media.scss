@@ -12,10 +12,57 @@
     		max-width: 915px;
 		}
 		.rating-sites {
-			.place-block {
-				.sm-d {
+			.sm-d {
 					display: none;
+			}
+
+			.place-block {
+
+				.left-side {
+
+					.name-site-md {
+						display: none !important;
+					}
 				}
+
+				.description {
+
+					.see-profile {
+						display: none;
+					}
+				}
+
+				.fl-dir-col {
+
+					.sm-d {
+						display: none !important;
+					}
+				}
+			}
+		}
+
+		.feedback {
+
+			.fd-colum {
+
+				.dop-f {
+
+					.fed-sm-d {
+						display: none !important;
+					}
+				}
+
+				// .align-items-end-sm {
+				// 	align-items: flex-end !important;
+				// 	.rating-fd {
+				// 		flex-direction: column;
+				// 	    align-items: flex-end !important;
+				// 		width: 100%;
+				// 		span {
+				// 			font-size: 12px;
+				// 		}
+				// 	}
+				// }
 			}
 		}
 	}
@@ -23,24 +70,95 @@
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+	body {
+		padding-left: 200px !important;
+	}
 
+	.box_sidebar--left {
+		width: 200px !important;
+		.side-wrap {
+			padding: 20px 13px !important;
+
+			.wrap-ul {
+				ul {
+					li {
+						a {
+							font-size: 12px!important;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.box-center {
+
+		.header {
+
+		}
+	}
+
+	.rating-sites {
+
+		.sm-d {
+				display: none;
+		}
+
+		.place-block {
+
+			.left-side {
+
+				.name-site-md {
+					display: none !important;
+				}
+			}
+		}
+
+		.description {
+
+			.see-profile {
+				display: none;
+			}
+		}
+
+		.fl-dir-col {
+
+			.sm-d {
+				display: none !important;
+			}
+		}
+	}
+
+	.feedback {
+
+		.fd-colum {
+
+			.dop-f {
+
+				.fed-sm-d {
+					display: none !important;
+				}
+			}
+
+			.align-items-end-sm {
+				align-items: flex-end !important;
+				.rating-fd {
+					flex-direction: column;
+				    align-items: flex-end !important;
+					width: 100%;
+					span {
+						font-size: 12px;
+					}
+				}
+			}
+		}
+	}
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/* Landscape phones and portrait tablets */
-@media (min-width: 481px) and (max-width: 767px) {
-
-
-}
-
-/* Landscape phones and smaller */
-@media (min-width: 320px) and (max-width: 480px) {
 	.box_sidebar--left {
-		position: fixed;
+		position: relative !important;
 		width: 100% !important;
 		height: auto !important;
 		.side-wrap {
@@ -69,8 +187,288 @@
 	}
 
 	.box-center {
-		margin-top: 100px;
-		padding: 0 !important;
+		padding: 20px 0 !important;
+		.header {
+			.title-block {
+				margin-top: 0;
+				.title-top {
+					font-size: 40px;
+				}
+			}
+
+			.wrap-p {
+				padding: 0;
+				margin-top: 10px;
+				.description {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+
+	.rating-sites {
+
+		.green-text {
+			display: none;
+		}
+
+		.sm-d {
+			display: block;
+			font-size: 15px !important;
+		}
+
+		.place-block {
+			    padding: 15px 15px!important;
+			    .sovet {
+			    	&::before {
+			    		left: -15px !important;
+			    		z-index: -10;
+			    	}
+			    }
+			    .width-md {
+			    	width: 100%;
+			    	.left-side {
+			    		justify-content: space-between;
+						display: flex;
+						.screen-site {
+							display: none !important;
+						}
+						.left-side-up {
+							padding-left: 0 !important;
+							width: 38%
+						}
+
+						.name-site-md {
+							display: flex !important;
+							width: 45%;
+						}
+					}
+			    }
+			.name-site {
+				display: none !important;
+			}
+			.description {
+				font-size: 15px !important;
+				position: relative;
+				-webkit-line-clamp: 4!important;
+
+				 .see-profile {
+				 	display: none !important;
+					position: relative;
+					font-size: 13px;
+					color: #2387e8;
+
+					.icon-a {
+						position: absolute;
+					    right: -13px;
+	    				bottom: 0px;
+						font-size: 11px;
+						color: #2387e8;
+					}
+				}
+			}
+			.sm-d {
+				display: flex !important;
+				font-size: 15px !important;
+			}
+
+			.list-users {
+				justify-content: space-between !important;
+				flex-wrap: nowrap !important;
+				li {
+					width: 71px !important;
+				}
+			}
+			.fl-dir-col {
+				// flex-direction: column;
+				// margin-top: 15px!important;
+				// 	.stars {
+				// 	display: none !important;
+				// }
+				.sm-d {
+					// display: flex !important;
+					// justify-content: space-between;
+					display: none !important;
+					.stars {
+						flex-direction: column;
+						.review_stars_wrap {
+							padding: 0;
+						    align-items: center;
+						}
+					}
+
+					.btn-sm-d {
+						.btn-white {
+							font-size: 15px!important;
+						    padding: 8px 17px;
+							border: 1px solid #bcbae3;
+							border-radius: 3px;
+							color: #5752b8;
+						}
+					}
+				}
+
+				// .place-btn {
+				// 	margin-top: 20px;
+				// 	width: 100%;
+				// 	.btn-white {
+				// 		display: none;
+				// 	}
+				// 	.btn-fill {
+				// 	    padding: 6px 13px;
+				// 		width: 100%;
+				// 	}
+				// }
+			}
+		}
+	}
+
+	.feedback {
+
+		.title-block {
+
+			.title {
+				font-size: 40px!important;
+			}
+		}
+
+		.wrap-p {
+			padding: 0 !important;
+			.description {
+				font-size: 15px !important;
+			}
+		}
+		.up-feedback {
+				display: none !important;
+		}
+
+		.dop-f {
+		    display: flex;
+    		width: 100%;
+    		align-items: center;
+
+			.fed-sm-d {
+				display: flex !important;
+				padding-left: 15px;
+			}
+		}
+
+		.comment {
+			margin-top: 5px !important;
+			font-size: 15px;
+			p {
+				padding: 0 15px;
+			}
+		}
+
+		.align-items-end-sm {
+			align-items: flex-end !important;
+			.rating-fd {
+				flex-direction: column;
+			    align-items: flex-end !important;
+				width: 100%;
+				span {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+
+	.often-question {
+
+		.title-block {
+
+			.title {
+				font-size: 40px !important;
+			}
+		}
+
+		.wrap-spoiler {
+
+			ul {
+				li {
+					padding: 40px 50px!important;
+
+					.spoiler-title {
+						font-size: 20px!important;
+						padding: 0!important;
+					    display: flex;
+    					align-items: center;
+    					height: 44px;
+					}
+					.spoiler-body {
+						font-size: 15px!important;
+						margin: 0 -50px;
+
+						ul {
+							list-style-type: '-';
+							li {
+								padding: 3px 10px !important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+		.title-block {
+			&::before {
+				display: none;
+			}
+		}
+		.title {
+			font-size: 35px !important;
+			position: relative;
+			&::before {
+				content:'';
+				position: absolute;
+				width: 30px;
+				height: 30px;
+				bottom: 0;
+    			right: 0;
+				background: url('../images/heart.png') no-repeat;
+			}
+		}
+	}
+
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+	.box_sidebar--left {
+		position: relative !important;
+		width: 100% !important;
+		height: auto !important;
+		.side-wrap {
+			padding: 10px 15px! important;
+			.logo-block {
+
+				.a-logo {
+					display: flex;
+				}
+			}
+			.wrap-ul {
+				display: none;
+			}
+			.share {
+
+				display: none !important;
+				.social {
+					display: none;
+				}
+
+				.copyright {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.box-center {
+		padding: 20px 0 !important;
 		.header {
 			.title-block {
 				margin-top: 0;
@@ -101,7 +499,13 @@
 		}
 
 		.place-block {
-			padding: 10px;
+			    padding: 15px 10px!important;
+			    .sovet {
+			    	&::before {
+			    		left: -15px !important;
+			    		z-index: -10;
+			    	}
+			    }
 			.left-side {
 
 				.screen-site {
@@ -116,14 +520,311 @@
 			}
 			.description {
 				font-size: 13px !important;
+				position: relative;
+				-webkit-line-clamp: 4!important;
+
+				.see-profile {
+					position: relative;
+					font-size: 13px;
+					color: #2387e8;
+
+					.icon-a {
+						position: absolute;
+					    right: -13px;
+	    				bottom: 0px;
+						font-size: 11px;
+						color: #2387e8;
+					}
+				}
 			}
 			.sm-d {
-				display: block !important;
+				display: flex !important;
 				font-size: 13px !important;
 			}
 
 			.list-users {
 				justify-content: space-between !important;
+				flex-wrap: nowrap !important;
+				li {
+					display: none;
+					width: 71px !important;
+
+					&:first-child,
+					&:nth-child(2),
+					&:nth-child(3),
+					&:nth-child(4),
+					&:nth-child(5),
+					&:nth-child(6), {
+
+						display: flex;
+						justify-content: center !important;
+					}
+				}
+			}
+			.fl-dir-col {
+				flex-direction: column;
+				margin-top: 15px!important;
+					.stars {
+					display: none !important;
+				}
+				.sm-d {
+					display: flex !important;
+					justify-content: space-between;
+					.stars {
+						flex-direction: column;
+						.review_stars_wrap {
+							padding: 0;
+						    align-items: center;
+						}
+					}
+
+					.btn-sm-d {
+						.btn-white {
+							font-size: 13px!important;
+						    padding: 8px 17px;
+							border: 1px solid #bcbae3;
+							border-radius: 3px;
+							color: #5752b8;
+						}
+					}
+				}
+
+				.place-btn {
+					margin-top: 20px;
+					width: 100%;
+					.btn-white {
+						display: none;
+					}
+					.btn-fill {
+					    padding: 6px 13px;
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+
+	.feedback {
+
+		.title-block {
+
+			.title {
+				font-size: 30px!important;
+			}
+		}
+
+		.wrap-p {
+			padding: 0 !important;
+			.description {
+				font-size: 13px !important;
+			}
+		}
+		.up-feedback {
+				display: none !important;
+		}
+
+		.dop-f {
+		    display: flex;
+    		width: 100%;
+    		align-items: center;
+
+			.fed-sm-d {
+				display: flex !important;
+				padding-left: 15px;
+			}
+		}
+
+		.comment {
+			margin-top: 5px !important;
+			font-size: 13px;
+			p {
+				padding: 0 15px;
+			}
+		}
+
+		.align-items-end-sm {
+			align-items: flex-end !important;
+			.rating-fd {
+				flex-direction: column;
+			    align-items: flex-end !important;
+				width: 100%;
+				span {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+
+	.often-question {
+
+		.title-block {
+
+			.title {
+				font-size: 30px !important;
+			}
+		}
+
+		.wrap-spoiler {
+
+			ul {
+				li {
+					padding: 40px 50px!important;
+
+					.spoiler-title {
+						font-size: 15px!important;
+						padding: 0!important;
+					    display: flex;
+    					align-items: center;
+    					height: 44px;
+					}
+					.spoiler-body {
+						font-size: 13px!important;
+						margin: 0 -50px;
+
+						ul {
+							list-style-type: '-';
+							li {
+								padding: 3px 10px !important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+		.title-block {
+			&::before {
+				display: none;
+			}
+		}
+		.title {
+			font-size: 30px !important;
+			position: relative;
+			&::before {
+				content:'';
+				position: absolute;
+				width: 30px;
+				height: 30px;
+				bottom: 0;
+    			right: 0;
+				background: url('../images/heart.png') no-repeat;
+			}
+		}
+	}
+
+}
+
+/* Landscape phones and smaller */
+@media (min-width: 320px) and (max-width: 480px) {
+	.box_sidebar--left {
+		position: relative !important;
+		width: 100% !important;
+		height: auto !important;
+		.side-wrap {
+			padding: 10px 15px! important;
+			.logo-block {
+
+				.a-logo {
+					display: flex;
+				}
+			}
+			.wrap-ul {
+				display: none;
+			}
+			.share {
+
+				display: none !important;
+				.social {
+					display: none;
+				}
+
+				.copyright {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.box-center {
+		padding: 20px 0 !important;
+		.header {
+			.title-block {
+				margin-top: 0;
+				.title-top {
+					font-size: 30px;
+				}
+			}
+
+			.wrap-p {
+				padding: 0;
+				margin-top: 10px;
+				.description {
+					font-size: 13px;
+				}
+			}
+		}
+	}
+
+	.rating-sites {
+
+		.green-text {
+			display: none;
+		}
+
+		.sm-d {
+			display: block;
+			font-size: 13px !important;
+		}
+
+		.place-block {
+			    padding: 15px 10px!important;
+			    .sovet {
+			    	&::before {
+			    		left: -15px !important;
+			    		z-index: -10;
+			    	}
+			    }
+			.left-side {
+
+				.screen-site {
+					display: none;
+				}
+				.left-side-up {
+					padding-left: 0 !important;
+				}
+			}
+			.name-site {
+				display: none !important;
+			}
+			.description {
+				font-size: 13px !important;
+				position: relative;
+				-webkit-line-clamp: 4!important;
+
+				.see-profile {
+					position: relative;
+					font-size: 13px;
+					color: #2387e8;
+
+					.icon-a {
+						position: absolute;
+					    right: -13px;
+	    				bottom: 0px;
+						font-size: 11px;
+						color: #2387e8;
+					}
+				}
+			}
+			.sm-d {
+				display: flex !important;
+				font-size: 13px !important;
+			}
+
+			.list-users {
+				justify-content: space-between !important;
+				flex-wrap: nowrap !important;
 				li {
 					display: none;
 					width: 71px !important;
@@ -138,19 +839,156 @@
 					}
 				}
 			}
+			.fl-dir-col {
+				flex-direction: column;
+				margin-top: 15px!important;
+					.stars {
+					display: none !important;
+				}
+				.sm-d {
+					display: flex !important;
+					justify-content: space-between;
+					.stars {
+						flex-direction: column;
+						.review_stars_wrap {
+							padding: 0;
+						    align-items: center;
+						}
+					}
 
-			// .stars {
-			// 	display: none !important;
-			// }
-			// .sm-d {
-			// 	display: flex !important;
-			// }
+					.btn-sm-d {
+						.btn-white {
+							font-size: 13px!important;
+						    padding: 8px 17px;
+							border: 1px solid #bcbae3;
+							border-radius: 3px;
+							color: #5752b8;
+						}
+					}
+				}
 
-			// .place-btn {
-			// 	.btn-white {
-			// 		display: none;
-			// 	}
-			// }
+				.place-btn {
+					margin-top: 20px;
+					width: 100%;
+					.btn-white {
+						display: none;
+					}
+					.btn-fill {
+					    padding: 6px 13px;
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+
+	.feedback {
+
+		.title-block {
+
+			.title {
+				font-size: 30px!important;
+			}
+		}
+
+		.wrap-p {
+			padding: 0 !important;
+			.description {
+				font-size: 13px !important;
+			}
+		}
+		.up-feedback {
+				display: none !important;
+		}
+
+		.dop-f {
+		    display: flex;
+    		width: 100%;
+    		align-items: center;
+
+			.fed-sm-d {
+				display: flex !important;
+				padding-left: 15px;
+			}
+		}
+
+		.comment {
+			margin-top: 5px !important;
+			font-size: 13px;
+			p {
+				padding: 0 15px;
+			}
+		}
+
+		.align-items-end-sm {
+			align-items: flex-end !important;
+			.rating-fd {
+				flex-direction: column;
+			    align-items: flex-end !important;
+				width: 100%;
+				span {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+
+	.often-question {
+
+		.title-block {
+
+			.title {
+				font-size: 30px !important;
+			}
+		}
+
+		.wrap-spoiler {
+
+			ul {
+				li {
+					padding: 40px 50px!important;
+
+					.spoiler-title {
+						font-size: 15px!important;
+						padding: 0!important;
+					    display: flex;
+    					align-items: center;
+    					height: 44px;
+					}
+					.spoiler-body {
+						font-size: 13px!important;
+						margin: 0 -50px;
+
+						ul {
+							list-style-type: '-';
+							li {
+								padding: 3px 10px !important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+		.title-block {
+			&::before {
+				display: none;
+			}
+		}
+		.title {
+			font-size: 30px !important;
+			position: relative;
+			&::before {
+				content:'';
+				position: absolute;
+				width: 30px;
+				height: 30px;
+				bottom: 0;
+    			right: 0;
+				background: url('../images/heart.png') no-repeat;
+			}
 		}
 	}
 }
