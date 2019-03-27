@@ -27,6 +27,10 @@
 					}
 				}
 
+				.d-md {
+					display: none;
+				}
+
 				.description {
 
 					.see-profile {
@@ -115,6 +119,16 @@
 
 				.name-site-md {
 					display: none !important;
+				}
+			}
+			.dis-none-md {
+				display: none;
+			}
+
+			.d-md {
+				.stars {
+					margin: 0;
+					padding: 0 15px;
 				}
 			}
 		}
@@ -239,6 +253,10 @@
 			    		z-index: -10;
 			    	}
 			    }
+
+			    .d-md {
+					display: none;
+				}
 			    .width-md {
 			    	width: 100%;
 			    	.left-side {
@@ -529,6 +547,10 @@
 			    		z-index: -10;
 			    	}
 			    }
+
+		    .d-md {
+				display: none;
+			}
 			.left-side {
 
 				.screen-site {
@@ -818,6 +840,9 @@
 			    		z-index: -10;
 			    	}
 			    }
+			.d-md {
+				display: none;
+			}
 			.left-side {
 
 				.screen-site {
