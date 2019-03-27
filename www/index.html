@@ -2,9 +2,9 @@
 <html lang="ru-RU">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta http-equiv="Content-Type" content="text/html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 	<meta name="HandheldFriendly" content="true">
 	<meta http-equiv="cleartype" content="on">
 	<meta http-equiv="msthemecompatible" content="no">
@@ -16,15 +16,12 @@
 	<title>affetta</title>
 </head>
 <body>
-	<main>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="#"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbar1">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active"> 
+	<div class="menu-catalog">
+		<div class="menu-catalog-content">
+			<a class="menu-catalog-head" href="#">Меню</a>
+			<div class="menu-catalog-body">
+				<ul class="catalog-side">
+					<li>
 						<ul class="side-menu-list">
 							<li>
 								<a href="#"><span><i class="svg-top svg-top-x"></i></span><span class="text">Топ 5 сайтов</span></a>
@@ -37,9 +34,9 @@
 							</li>
 						</ul>
 					</li>
-					<li class="nav-item">
+					<li class="m-t-50">
 						<div class="share">
-							<span>Поделиться топом</span>
+							<span class="m-l-5">Поделиться топом</span>
 							<div class="social">
 								<a href="#"><span><i class="svg-vk svg-vk-x"></i></span></a>
 								<a href="#"><span><i class="svg-fb svg-fb-x"></i></span></a>
@@ -52,15 +49,18 @@
 							</div>
 						</div>
 					</li>
-				</ul> 
+				</ul>
 			</div>
-		</nav>
+		</div>
+	</div>
+	<main>
 		<div class="box_sidebar--left">
 			<div class="side-wrap">
 				<div class="logo-block">
 					<div class="a-logo">
 						<a href="#" class="logo"></a>
 					</div>
+					<a href="" class="btn-menu d-lg-none"></a>
 					<div class="wrap-ul">
 						<ul class="side-menu-list">
 							<li>
@@ -90,152 +90,127 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="box-center content">
-		<section class="header">
-			<div class="container">
-				<div class="row">
-					<div class="col-auto d-none">
-						<div class="mobile-version version">
-							<span>Вы смотрите полную версию сайта. <a href="#">Смотреть мобильную версию сайта</a></span>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-auto col-xl-11">
-						<div class="title-block">
-							<h1 class="title title-top">Пятёрка лучших сайтов знакомств</h1>
-						</div>
-						<div class="wrap-p">
-							<p class="description">«ParamourTopSite.ru» представляет рейтинг лучших сайтов знакомств России. Рейтинг основан
-								на отзывах более 20 000 пользователей, анализа сайтов, взвешивании плюсов и минусов каждого
-								из них. Выбирай свой сайт знакомств!
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="rating-sites">
-			<div class="container">
-				<div class="green-text"><span>Вам повезло — это свежий рейтинг! Мы вчера обновили пятёрку сайтов знакомств</span></div>
-				<div class="green-text sm-d"><span>Вам повезло — это свежий рейтинг!</span></div>
-				<div class="place-block">
-					<span class="sovet"></span>
+		<div class="box-center content">
+			<section class="header">
+				<div class="container">
 					<div class="row">
-						<div class="col-auto width-md">
-							<div class="left-side">
-								<div class="left-side-up">
-									<div class="place-number">1 место</div>
-									<div class="logo-site-place"></div>
-								</div>
-								<div class="name-site name-site-md">
-									<span class="icon-a"><i class="fas fa-arrow-right"></i></span>
-									<span>atolin.ru</span>
-									<a href="#" class="see-profile">Посмотреть анкеты</a>
-								</div>
-								<div class="screen-site"></div>
+						<div class="col-auto d-none">
+							<div class="mobile-version version">
+								<span>Вы смотрите полную версию сайта. <a href="#">Смотреть мобильную версию сайта</a></span>
 							</div>
 						</div>
-						<div class="col-xl-8 col-lg-7">
-							<div class="row">
-								<div class="col-xl-12">
-									<div class="name-site">
+					</div>
+					<div class="row">
+						<div class="col-auto col-xl-11">
+							<div class="title-block">
+								<h1 class="title title-top">Пятёрка лучших сайтов знакомств</h1>
+							</div>
+							<div class="wrap-p">
+								<p class="description">«ParamourTopSite.ru» представляет рейтинг лучших сайтов знакомств России. Рейтинг основан
+									на отзывах более 20 000 пользователей, анализа сайтов, взвешивании плюсов и минусов каждого
+									из них. Выбирай свой сайт знакомств!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="rating-sites">
+				<div class="container">
+					<div class="green-text"><span>Вам повезло — это свежий рейтинг! Мы вчера обновили пятёрку сайтов знакомств</span></div>
+					<div class="green-text sm-d"><span>Вам повезло — это свежий рейтинг!</span></div>
+					<div class="place-block">
+						<span class="sovet"></span>
+						<div class="row">
+							<div class="col-auto width-md">
+								<div class="left-side">
+									<div class="left-side-up">
+										<div class="place-number">1 место</div>
+										<div class="logo-site-place"></div>
+									</div>
+									<div class="name-site name-site-md">
 										<span class="icon-a"><i class="fas fa-arrow-right"></i></span>
 										<span>atolin.ru</span>
 										<a href="#" class="see-profile">Посмотреть анкеты</a>
 									</div>
+									<div class="screen-site"></div>
 								</div>
 							</div>
-							<div class="row">
-								<div class="col-auto">
-									<p class="description">atolin.ru — хорошо продуманный сайт знакомств для успешных мужчин и девушек, ищущих щедрых спонсоров. Надо пробовать!
-										<a href="#" class="see-profile">Посмотреть анкеты<span class="icon-a"><i class="fas fa-arrow-right"></i></span></a></p>
+							<div class="col-xl-8 col-lg-7">
+								<div class="row">
+									<div class="col-xl-12">
+										<div class="name-site">
+											<span class="icon-a"><i class="fas fa-arrow-right"></i></span>
+											<span>atolin.ru</span>
+											<a href="#" class="see-profile">Посмотреть анкеты</a>
+										</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-auto w-100">
-										<ul class="list-users d-flex">
-											<li class="">
-												<a href="#">
+									<div class="col-auto">
+										<p class="description">atolin.ru — хорошо продуманный сайт знакомств для успешных мужчин и девушек, ищущих щедрых спонсоров. Надо пробовать!
+											<a href="#" class="see-profile">Посмотреть анкеты<span class="icon-a"><i class="fas fa-arrow-right"></i></span></a></p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-auto w-100">
+											<ul class="list-users d-flex">
+												<li class="">
+													<a href="#">
+														<div class="avatar-user"></div>
+														<div class="name-user">Лола</div>
+													</a>
+												</li>
+												<li
+												><a href="#">
 													<div class="avatar-user"></div>
-													<div class="name-user">Лола</div>
+													<div class="name-user">Антон</div>
 												</a>
 											</li>
-											<li
-											><a href="#">
-												<div class="avatar-user"></div>
-												<div class="name-user">Антон</div>
-											</a>
-										</li>
-										<li>
-											<a href="">
-												<div class="avatar-user"></div>
-												<div class="name-user">Максим</div>
-											</a>
-										</li>
-										<li>
-											<a href="">
-												<div class="avatar-user"></div>
-												<div class="name-user">Марго</div>
-											</a>
-										</li>
-										<li>
-											<a href="">
-												<div class="avatar-user"></div>
-												<div class="name-user">Мрр-Р</div>
-											</a>
-										</li>
-										<li>
-											<a href="">
-												<div class="avatar-user"></div>
-												<div class="name-user">Анастасия</div>
-											</a>
-										</li>
-										<li>
-											<a href="">
-												<div class="avatar-user"></div>
-												<div class="name-user">Олег</div>
-											</a>
-										</li>
-										<li>
-											<a href="">
-												<div class="avatar-user"></div>
-												<div class="name-user">Олег</div>
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-auto col-xl-12 col-12 d-flex  justify-content-between align-items-center m-t-30 fl-dir-col">
-									<div class="stars">
-										<span class="rating-number">9.8</span>
-										<div class="review_stars_wrap">
-											<div id="review_stars">
-												<span>
-													<i class="fas fa-star"></i>
-												</span>
-												<span>
-													<i class="fas fa-star"></i>
-												</span>
-												<span>
-													<i class="fas fa-star"></i>
-												</span>
-												<span>
-													<i class="fas fa-star"></i>
-												</span>
-												<span>
-													<i class="fas fa-star"></i>
-												</span>
-											</div>
-										</div>
-										<span class="valuation">2053 оценок</span>
+											<li>
+												<a href="">
+													<div class="avatar-user"></div>
+													<div class="name-user">Максим</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="avatar-user"></div>
+													<div class="name-user">Марго</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="avatar-user"></div>
+													<div class="name-user">Мрр-Р</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="avatar-user"></div>
+													<div class="name-user">Анастасия</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="avatar-user"></div>
+													<div class="name-user">Олег</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="avatar-user"></div>
+													<div class="name-user">Олег</div>
+												</a>
+											</li>
+										</ul>
 									</div>
-									<div class="sm-d d-flex w-100">
-										<div class="stars sm-d d-flex">
-											<div class="review_stars_wrap d-flex">
-												<span class="rating-number">9.8</span>
+								</div>
+								<div class="row">
+									<div class="col-auto col-xl-12 col-12 d-flex  justify-content-between align-items-center m-t-30 fl-dir-col">
+										<div class="stars">
+											<span class="rating-number">9.8</span>
+											<div class="review_stars_wrap">
 												<div id="review_stars">
 													<span>
 														<i class="fas fa-star"></i>
@@ -256,82 +231,158 @@
 											</div>
 											<span class="valuation">2053 оценок</span>
 										</div>
-										<div class="btn-sm-d">
+										<div class="sm-d d-flex w-100">
+											<div class="stars sm-d d-flex">
+												<div class="review_stars_wrap d-flex">
+													<span class="rating-number">9.8</span>
+													<div id="review_stars">
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+													</div>
+												</div>
+												<span class="valuation">2053 оценок</span>
+											</div>
+											<div class="btn-sm-d">
+												<a href="#" class="btn btn-white">Читать обзор</a>
+											</div>
+										</div>
+										<div class="place-btn">
 											<a href="#" class="btn btn-white">Читать обзор</a>
+											<a href="#" class="btn btn-fill">Перейти на сайт</a>
 										</div>
-									</div>
-									<div class="place-btn">
-										<a href="#" class="btn btn-white">Читать обзор</a>
-										<a href="#" class="btn btn-fill">Перейти на сайт</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section class="feedback">
-			<div class="container">
-				<div class="row">
-					<div class="col-auto">
-						<div class="title-block">
-							<h3 class="title">Отзывы успешных знакомств</h3>
-						</div>
-					</div>
-					<div class="col-12 col-xl-9 col-lg-9">
-						<div class="wrap-p">
-							<p class="description">От одиночки до пары: онлайн-знакомства с историями успеха от людей, 
-							которые пользовались сайтами знакомств, чтобы найти отношения на своих условиях.</p>
-						</div>
-					</div>
-				</div>
-				<div class="feedback-columns">
+			</section>
+			<section class="feedback">
+				<div class="container">
 					<div class="row">
-						<div class="col-xl-6 col-12 col-md-6">
-							<div class="fd-colum">
-								<div class="row">
-									<div class="col-auto dop-f">
-										<div class="avatar-user"></div>
-										<div class="up-feedback fed-sm-d">
-											<div class="name-user">Мария</div>
-											<div class="fd-data-text">11.09.2019</div>
-										</div>
-									</div>
-									<div class="col-12 col-xl-9 col-lg-8">
-										<div class="row">
-											<div class="up-feedback">
+						<div class="col-auto">
+							<div class="title-block">
+								<h3 class="title">Отзывы успешных знакомств</h3>
+							</div>
+						</div>
+						<div class="col-12 col-xl-9 col-lg-9">
+							<div class="wrap-p">
+								<p class="description">От одиночки до пары: онлайн-знакомства с историями успеха от людей, 
+								которые пользовались сайтами знакомств, чтобы найти отношения на своих условиях.</p>
+							</div>
+						</div>
+					</div>
+					<div class="feedback-columns">
+						<div class="row">
+							<div class="col-xl-6 col-12 col-md-6">
+								<div class="fd-colum">
+									<div class="row">
+										<div class="col-auto dop-f">
+											<div class="avatar-user"></div>
+											<div class="up-feedback fed-sm-d">
 												<div class="name-user">Мария</div>
 												<div class="fd-data-text">11.09.2019</div>
 											</div>
-											<div class="comment">
-												<p>Люблю, когда обо мне заботятся, и знаю, что мужчинам нравится показывать, что они мужчины, что они могут себе позволить меня баловать. Я рада, что создала анкету на atolin.ru</p>
+										</div>
+										<div class="col-12 col-xl-9 col-lg-8">
+											<div class="row">
+												<div class="up-feedback">
+													<div class="name-user">Мария</div>
+													<div class="fd-data-text">11.09.2019</div>
+												</div>
+												<div class="comment">
+													<p>Люблю, когда обо мне заботятся, и знаю, что мужчинам нравится показывать, что они мужчины, что они могут себе позволить меня баловать. Я рада, что создала анкету на atolin.ru</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12 d-flex align-items-center align-items-end-sm">
+											<div class="logo-site"></div>
+											<div class="rating-fd d-flex">
+												<span>Оценка пользователя:</span>
+												<div class="review_stars_wrap">
+													<div id="review_stars">
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="row">
-									<div class="col-12 d-flex align-items-center align-items-end-sm">
-										<div class="logo-site"></div>
-										<div class="rating-fd d-flex">
-											<span>Оценка пользователя:</span>
-											<div class="review_stars_wrap">
-												<div id="review_stars">
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
+							</div>
+							<div class="col-xl-6 col-12 col-md-6">
+								<div class="fd-colum">
+									<div class="row">
+										<div class="col-auto dop-f">
+											<div class="avatar-user"></div>
+											<div class="up-feedback fed-sm-d">
+												<div class="name-user">Мария</div>
+												<div class="fd-data-text">11.09.2019</div>
+											</div>
+										</div>
+										<div class="col-12 col-xl-9 col-lg-8">
+											<div class="row">
+												<div class="up-feedback">
+													<div class="name-user">Мария</div>
+													<div class="fd-data-text">11.09.2019</div>
+												</div>
+												<div class="comment">
+													<p>Люблю, когда обо мне заботятся, и знаю, что мужчинам нравится показывать, что они мужчины, что они могут себе позволить меня баловать. Я рада, что создала анкету на atolin.ru</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12 d-flex align-items-center align-items-end-sm">
+											<div class="logo-site"></div>
+											<div class="rating-fd d-flex">
+												<span>Оценка пользователя:</span>
+												<div class="review_stars_wrap">
+													<div id="review_stars">
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -339,297 +390,241 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xl-6 col-12 col-md-6">
-							<div class="fd-colum">
-								<div class="row">
-									<div class="col-auto dop-f">
-										<div class="avatar-user"></div>
-										<div class="up-feedback fed-sm-d">
-											<div class="name-user">Мария</div>
-											<div class="fd-data-text">11.09.2019</div>
-										</div>
-									</div>
-									<div class="col-12 col-xl-9 col-lg-8">
-										<div class="row">
-											<div class="up-feedback">
+						<div class="row">
+							<div class="col-xl-6 col-12 col-md-6">
+								<div class="fd-colum">
+									<div class="row">
+										<div class="col-auto dop-f">
+											<div class="avatar-user"></div>
+											<div class="up-feedback fed-sm-d">
 												<div class="name-user">Мария</div>
 												<div class="fd-data-text">11.09.2019</div>
 											</div>
-											<div class="comment">
-												<p>Люблю, когда обо мне заботятся, и знаю, что мужчинам нравится показывать, что они мужчины, что они могут себе позволить меня баловать. Я рада, что создала анкету на atolin.ru</p>
+										</div>
+										<div class="col-12 col-xl-9 col-lg-8">
+											<div class="row">
+												<div class="up-feedback">
+													<div class="name-user">Мария</div>
+													<div class="fd-data-text">11.09.2019</div>
+												</div>
+												<div class="comment">
+													<p>Люблю, когда обо мне заботятся, и знаю, что мужчинам нравится показывать, что они мужчины, что они могут себе позволить меня баловать. Я рада, что создала анкету на atolin.ru</p>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="row">
-									<div class="col-12 d-flex align-items-center align-items-end-sm">
-										<div class="logo-site"></div>
-										<div class="rating-fd d-flex">
-											<span>Оценка пользователя:</span>
-											<div class="review_stars_wrap">
-												<div id="review_stars">
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
+									<div class="row">
+										<div class="col-12 d-flex align-items-center align-items-end-sm">
+											<div class="logo-site"></div>
+											<div class="rating-fd d-flex">
+												<span>Оценка пользователя:</span>
+												<div class="review_stars_wrap">
+													<div id="review_stars">
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
+							</div>
+							<div class="col-xl-6 col-12 col-md-6">
+								<div class="fd-colum">
+									<div class="row">
+										<div class="col-auto dop-f">
+											<div class="avatar-user"></div>
+											<div class="up-feedback fed-sm-d">
+												<div class="name-user">Мария</div>
+												<div class="fd-data-text">11.09.2019</div>
+											</div>
+										</div>
+										<div class="col-12 col-xl-9 col-lg-8">
+											<div class="row">
+												<div class="up-feedback">
+													<div class="name-user">Мария</div>
+													<div class="fd-data-text">11.09.2019</div>
+												</div>
+												<div class="comment">
+													<p>Люблю, когда обо мне заботятся, и знаю, что мужчинам нравится показывать, что они мужчины, что они могут себе позволить меня баловать. Я рада, что создала анкету на atolin.ru</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12 d-flex align-items-center align-items-end-sm">
+											<div class="logo-site"></div>
+											<div class="rating-fd d-flex">
+												<span>Оценка пользователя:</span>
+												<div class="review_stars_wrap">
+													<div id="review_stars">
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+														<span>
+															<i class="fas fa-star"></i>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="often-question">
+				<div class="container">
+					<div class="row">
+						<div class="col-auto">
+							<div class="title-block">
+								<h3 class="title">Часто задаваемые вопросы  о сайтах знакомств </h3>
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-xl-6 col-12 col-md-6">
-							<div class="fd-colum">
-								<div class="row">
-									<div class="col-auto dop-f">
-										<div class="avatar-user"></div>
-										<div class="up-feedback fed-sm-d">
-											<div class="name-user">Мария</div>
-											<div class="fd-data-text">11.09.2019</div>
+						<div class="col-12">
+							<div class="wrap-spoiler">
+								<ul>
+									<li>
+										<span class="spoiler-title">Зачем нужен рейтинг сайтов знакомств?</span>
+										<div class="spoiler-body">
+											<p>В первую очередь для того, чтобы получить настоящие отзывы от пользователей, невыдуманные 
+												истории любви и разочарований, положительного и негативного опыта, только актуальную информацию 
+												о каждом дейтинг-сервисе. Команда topznakomstva.com вручную отбирает и просматривает популярные 
+											и не очень сайты знакомств, а затем оценивает их по следующим параметрам:</p>
+											<ul>
+												<li>Бесплатный/платный доступ и функционал</li>
+												<li>Алгоритм поиска</li>
+												<li>Процент реальных анкет</li>
+												<li>Конфиденциальность информации об участниках, защита данных</li>
+												<li>Наличие/отсутствие анкет с аморальным содержанием, откровенных фото</li>
+												<li>Поведение участников, действия техподдержки</li>
+											</ul>
+
+											<p>На основании этих и других не менее важных критериев мы делаем выводы, 
+												которые превращаются в топ сайтов знакомств. Информация о ресурсах максимально полезна, 
+												правдива и позволяет сформировать объективное впечатление. Наш рейтинг сайтов знакомств 
+											— это рекомендация. А дальнейшее решение вы принимаете сами. </p>
 										</div>
-									</div>
-									<div class="col-12 col-xl-9 col-lg-8">
-										<div class="row">
-											<div class="up-feedback">
-												<div class="name-user">Мария</div>
-												<div class="fd-data-text">11.09.2019</div>
-											</div>
-											<div class="comment">
-												<p>Люблю, когда обо мне заботятся, и знаю, что мужчинам нравится показывать, что они мужчины, что они могут себе позволить меня баловать. Я рада, что создала анкету на atolin.ru</p>
-											</div>
+									</li>
+									<li>
+										<span class="spoiler-title">Почему некоторые сайты бесплатны, а другие нет?</span>
+										<div class="spoiler-body">
+											<p>В первую очередь для того, чтобы получить настоящие отзывы от пользователей, невыдуманные 
+												истории любви и разочарований, положительного и негативного опыта, только актуальную информацию 
+												о каждом дейтинг-сервисе. Команда topznakomstva.com вручную отбирает и просматривает популярные 
+											и не очень сайты знакомств, а затем оценивает их по следующим параметрам:</p>
+											<ul>
+												<li>Бесплатный/платный доступ и функционал</li>
+												<li>Алгоритм поиска</li>
+												<li>Процент реальных анкет</li>
+												<li>Конфиденциальность информации об участниках, защита данных</li>
+												<li>Наличие/отсутствие анкет с аморальным содержанием, откровенных фото</li>
+												<li>Поведение участников, действия техподдержки</li>
+											</ul>
+
+											<p>На основании этих и других не менее важных критериев мы делаем выводы, 
+												которые превращаются в топ сайтов знакомств. Информация о ресурсах максимально полезна, 
+												правдива и позволяет сформировать объективное впечатление. Наш рейтинг сайтов знакомств 
+											— это рекомендация. А дальнейшее решение вы принимаете сами. </p>
 										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-12 d-flex align-items-center align-items-end-sm">
-										<div class="logo-site"></div>
-										<div class="rating-fd d-flex">
-											<span>Оценка пользователя:</span>
-											<div class="review_stars_wrap">
-												<div id="review_stars">
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-												</div>
-											</div>
+									</li>
+									<li>
+										<span class="spoiler-title">Какой сайт знакомств лучший в России? </span>
+										<div class="spoiler-body">
+											<p>В первую очередь для того, чтобы получить настоящие отзывы от пользователей, невыдуманные 
+												истории любви и разочарований, положительного и негативного опыта, только актуальную информацию 
+												о каждом дейтинг-сервисе. Команда topznakomstva.com вручную отбирает и просматривает популярные 
+											и не очень сайты знакомств, а затем оценивает их по следующим параметрам:</p>
+											<ul>
+												<li>Бесплатный/платный доступ и функционал</li>
+												<li>Алгоритм поиска</li>
+												<li>Процент реальных анкет</li>
+												<li>Конфиденциальность информации об участниках, защита данных</li>
+												<li>Наличие/отсутствие анкет с аморальным содержанием, откровенных фото</li>
+												<li>Поведение участников, действия техподдержки</li>
+											</ul>
+
+											<p>На основании этих и других не менее важных критериев мы делаем выводы, 
+												которые превращаются в топ сайтов знакомств. Информация о ресурсах максимально полезна, 
+												правдива и позволяет сформировать объективное впечатление. Наш рейтинг сайтов знакомств 
+											— это рекомендация. А дальнейшее решение вы принимаете сами. </p>
 										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-6 col-12 col-md-6">
-							<div class="fd-colum">
-								<div class="row">
-									<div class="col-auto dop-f">
-										<div class="avatar-user"></div>
-										<div class="up-feedback fed-sm-d">
-											<div class="name-user">Мария</div>
-											<div class="fd-data-text">11.09.2019</div>
+									</li>
+									<li>
+										<span class="spoiler-title">Какие есть альтернативы?</span>
+										<div class="spoiler-body">
+											<p>В первую очередь для того, чтобы получить настоящие отзывы от пользователей, невыдуманные 
+												истории любви и разочарований, положительного и негативного опыта, только актуальную информацию 
+												о каждом дейтинг-сервисе. Команда topznakomstva.com вручную отбирает и просматривает популярные 
+											и не очень сайты знакомств, а затем оценивает их по следующим параметрам:</p>
+											<ul>
+												<li>Бесплатный/платный доступ и функционал</li>
+												<li>Алгоритм поиска</li>
+												<li>Процент реальных анкет</li>
+												<li>Конфиденциальность информации об участниках, защита данных</li>
+												<li>Наличие/отсутствие анкет с аморальным содержанием, откровенных фото</li>
+												<li>Поведение участников, действия техподдержки</li>
+											</ul>
+
+											<p>На основании этих и других не менее важных критериев мы делаем выводы, 
+												которые превращаются в топ сайтов знакомств. Информация о ресурсах максимально полезна, 
+												правдива и позволяет сформировать объективное впечатление. Наш рейтинг сайтов знакомств 
+											— это рекомендация. А дальнейшее решение вы принимаете сами. </p>
 										</div>
-									</div>
-									<div class="col-12 col-xl-9 col-lg-8">
-										<div class="row">
-											<div class="up-feedback">
-												<div class="name-user">Мария</div>
-												<div class="fd-data-text">11.09.2019</div>
-											</div>
-											<div class="comment">
-												<p>Люблю, когда обо мне заботятся, и знаю, что мужчинам нравится показывать, что они мужчины, что они могут себе позволить меня баловать. Я рада, что создала анкету на atolin.ru</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-12 d-flex align-items-center align-items-end-sm">
-										<div class="logo-site"></div>
-										<div class="rating-fd d-flex">
-											<span>Оценка пользователя:</span>
-											<div class="review_stars_wrap">
-												<div id="review_stars">
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-													<span>
-														<i class="fas fa-star"></i>
-													</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section class="often-question">
-			<div class="container">
-				<div class="row">
-					<div class="col-auto">
-						<div class="title-block">
-							<h3 class="title">Часто задаваемые вопросы  о сайтах знакомств </h3>
+			</section>
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-auto">
+							<div class="title-block">
+								<h3 class="title">Желаем вам найти комфортные отношения с помощью нашего сайта!</h3>
+							</div>
+						</div>
+						<div class="col-auto d-none">
+							<div class="mobile-version version">
+								<span>Вы смотрите полную версию сайта. <a href="#">Смотреть мобильную версию сайт</a></span>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-12">
-						<div class="wrap-spoiler">
-							<ul>
-								<li>
-									<span class="spoiler-title">Зачем нужен рейтинг сайтов знакомств?</span>
-									<div class="spoiler-body">
-										<p>В первую очередь для того, чтобы получить настоящие отзывы от пользователей, невыдуманные 
-											истории любви и разочарований, положительного и негативного опыта, только актуальную информацию 
-											о каждом дейтинг-сервисе. Команда topznakomstva.com вручную отбирает и просматривает популярные 
-										и не очень сайты знакомств, а затем оценивает их по следующим параметрам:</p>
-										<ul>
-											<li>Бесплатный/платный доступ и функционал</li>
-											<li>Алгоритм поиска</li>
-											<li>Процент реальных анкет</li>
-											<li>Конфиденциальность информации об участниках, защита данных</li>
-											<li>Наличие/отсутствие анкет с аморальным содержанием, откровенных фото</li>
-											<li>Поведение участников, действия техподдержки</li>
-										</ul>
-
-										<p>На основании этих и других не менее важных критериев мы делаем выводы, 
-											которые превращаются в топ сайтов знакомств. Информация о ресурсах максимально полезна, 
-											правдива и позволяет сформировать объективное впечатление. Наш рейтинг сайтов знакомств 
-										— это рекомендация. А дальнейшее решение вы принимаете сами. </p>
-									</div>
-								</li>
-								<li>
-									<span class="spoiler-title">Почему некоторые сайты бесплатны, а другие нет?</span>
-									<div class="spoiler-body">
-										<p>В первую очередь для того, чтобы получить настоящие отзывы от пользователей, невыдуманные 
-											истории любви и разочарований, положительного и негативного опыта, только актуальную информацию 
-											о каждом дейтинг-сервисе. Команда topznakomstva.com вручную отбирает и просматривает популярные 
-										и не очень сайты знакомств, а затем оценивает их по следующим параметрам:</p>
-										<ul>
-											<li>Бесплатный/платный доступ и функционал</li>
-											<li>Алгоритм поиска</li>
-											<li>Процент реальных анкет</li>
-											<li>Конфиденциальность информации об участниках, защита данных</li>
-											<li>Наличие/отсутствие анкет с аморальным содержанием, откровенных фото</li>
-											<li>Поведение участников, действия техподдержки</li>
-										</ul>
-
-										<p>На основании этих и других не менее важных критериев мы делаем выводы, 
-											которые превращаются в топ сайтов знакомств. Информация о ресурсах максимально полезна, 
-											правдива и позволяет сформировать объективное впечатление. Наш рейтинг сайтов знакомств 
-										— это рекомендация. А дальнейшее решение вы принимаете сами. </p>
-									</div>
-								</li>
-								<li>
-									<span class="spoiler-title">Какой сайт знакомств лучший в России? </span>
-									<div class="spoiler-body">
-										<p>В первую очередь для того, чтобы получить настоящие отзывы от пользователей, невыдуманные 
-											истории любви и разочарований, положительного и негативного опыта, только актуальную информацию 
-											о каждом дейтинг-сервисе. Команда topznakomstva.com вручную отбирает и просматривает популярные 
-										и не очень сайты знакомств, а затем оценивает их по следующим параметрам:</p>
-										<ul>
-											<li>Бесплатный/платный доступ и функционал</li>
-											<li>Алгоритм поиска</li>
-											<li>Процент реальных анкет</li>
-											<li>Конфиденциальность информации об участниках, защита данных</li>
-											<li>Наличие/отсутствие анкет с аморальным содержанием, откровенных фото</li>
-											<li>Поведение участников, действия техподдержки</li>
-										</ul>
-
-										<p>На основании этих и других не менее важных критериев мы делаем выводы, 
-											которые превращаются в топ сайтов знакомств. Информация о ресурсах максимально полезна, 
-											правдива и позволяет сформировать объективное впечатление. Наш рейтинг сайтов знакомств 
-										— это рекомендация. А дальнейшее решение вы принимаете сами. </p>
-									</div>
-								</li>
-								<li>
-									<span class="spoiler-title">Какие есть альтернативы?</span>
-									<div class="spoiler-body">
-										<p>В первую очередь для того, чтобы получить настоящие отзывы от пользователей, невыдуманные 
-											истории любви и разочарований, положительного и негативного опыта, только актуальную информацию 
-											о каждом дейтинг-сервисе. Команда topznakomstva.com вручную отбирает и просматривает популярные 
-										и не очень сайты знакомств, а затем оценивает их по следующим параметрам:</p>
-										<ul>
-											<li>Бесплатный/платный доступ и функционал</li>
-											<li>Алгоритм поиска</li>
-											<li>Процент реальных анкет</li>
-											<li>Конфиденциальность информации об участниках, защита данных</li>
-											<li>Наличие/отсутствие анкет с аморальным содержанием, откровенных фото</li>
-											<li>Поведение участников, действия техподдержки</li>
-										</ul>
-
-										<p>На основании этих и других не менее важных критериев мы делаем выводы, 
-											которые превращаются в топ сайтов знакомств. Информация о ресурсах максимально полезна, 
-											правдива и позволяет сформировать объективное впечатление. Наш рейтинг сайтов знакомств 
-										— это рекомендация. А дальнейшее решение вы принимаете сами. </p>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-auto">
-						<div class="title-block">
-							<h3 class="title">Желаем вам найти комфортные отношения с помощью нашего сайта!</h3>
-						</div>
-					</div>
-					<div class="col-auto d-none">
-						<div class="mobile-version version">
-							<span>Вы смотрите полную версию сайта. <a href="#">Смотреть мобильную версию сайт</a></span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<div class="box-side--right">
-			<div class="side-wrap">
-				<div class="wrap-image"></div>
-			</div>
+			</footer>
 		</div>
 	</main>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/vendor.js"></script>
+	<script  src="assets/js/vendor.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="assets/js/app.js"></script>
+	<script  src="assets/js/app.js"></script>
 </body>
 </html>
