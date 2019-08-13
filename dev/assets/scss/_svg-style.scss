@@ -1,0 +1,45 @@
+#ship {
+  fill: #75e3c6;
+}
+
+#track {
+  fill: none;
+  stroke: #ddedf4;
+  stroke-width: 6px;
+  stroke-dasharray: 0 9px;
+  stroke-linecap: round;
+}
+
+circle {
+  cursor: pointer;
+  fill: #49a2c7;
+  stroke-width: 0;
+  transition: 0.5s;
+}
+
+rect {
+  fill: transparent;
+  transition: 0.5s;
+}
+
+text {
+  text-anchor: middle;
+  font-family: Arial;
+  font-size: 12px;
+  user-select: none;
+}
+
+.active circle {
+  fill: #e53326;
+  stroke: #e53326;
+  stroke-width: 3px;
+}
+
+.active rect {
+  fill: #e53326;
+}
+
+.active text {
+  fill: #ffffff;
+}
+

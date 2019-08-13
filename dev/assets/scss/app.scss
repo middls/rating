@@ -1,10 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
-@import '_header.scss';
-@import '_sprite.scss';
-@import '_base.scss';
+@import '_svg-style.scss';
 @import '_helpers.scss';
-@import '_media.scss';
-@import '_sidebar.scss';
-@import '_rating.scss';
-@import '_feedback.scss';
+@import '_nice-select.scss';
+@import 'jquery.mCustomScrollbar.css';
 
+.grey-box {
+	background-color: #f8f8f8;
+	text-align: left;
+	padding: 25px 52px 30px 30px;
+	margin: 75px 0 0px 0px;
+
+	.h-text{
+		color: #eb4f47;
+		font-size: 32px;
+		line-height: 26px;
+	}
+
+	.div_text {
+		color: #444444;
+		font-size: 14px;
+		line-height: 26px;
+	}
+}
+
+.select_box {
+	height:150px!important;
+	margin-top: 75px;
+}
+
+.box_text-change {
+	border: 1px solid #ddedf4;
+	padding: 30px;
+	transition: 2s linear;
+
+	h3{
+		color: #444444;
+		font-size: 30px;
+		margin-bottom:20px;
+	}
+
+	span {
+		color: #49a2c7;
+		font-size: 14px;
+	}
+
+	p {
+		color: #444444;
+		font-size: 14px;
+		margin-top:15px;
+	}
+}
