@@ -37,7 +37,7 @@
     "gulp-svgmin": "^2.2.0",
     "gulp-uglify": "^3.0.1",
     "gulp-watch": "^5.0.1",
-    "pug": "^2.0.3"
+    "pug": "^3.0.1"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
